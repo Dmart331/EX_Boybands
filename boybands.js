@@ -17,15 +17,13 @@ var bandElement = document.getElementById("boy-bands");
 var veggieElement =document.getElementById("vegetables");
 
 // Start looping
-for (var loopTracker = 0; loopTracker < loopCount; loopTracker += 1) {
-
-  // Add the band names into the correct <div>
- 
-		currentBand = bandElement 
-		currentVeg = veggieElement
+for (var loopTracker = 0; loopTracker < loopCount; loopTracker += 1) {	
+	currentBand = bandElement 
+	currentVeg = veggieElement
 
 	bandElement.innerHTML += bands[loopTracker] + "<br>" ;
 	veggieElement.innerHTML += veg[loopTracker] + "<br>";
+
 console.log(bands[loopTracker]);
 console.log(veg[loopTracker]);
 
